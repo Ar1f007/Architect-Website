@@ -509,11 +509,12 @@ html {
 ----------------------------------------------------------*/
 .contact {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #272727;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10rem;
 }
 
 .contact-wrapper {
