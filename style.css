@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 /* End of Common Style  */
 
@@ -202,7 +203,7 @@ html {
   right: -40rem;
   background-color: #fff;
   transition: right 0.5s;
-  z-index: 10;
+  z-index: 9999;
 }
 
 .change .sidebar {
@@ -621,7 +622,59 @@ html {
   text-shadow: 0 0.1rem 3rem rgba(0, 0, 0, 0.5);
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
-
 /*--------------------------------------------------------
 /* End of Contact Section
 ----------------------------------------------------------*/
+
+/*--------------------------------------------------------
+/* Footer
+----------------------------------------------------------*/
+.footer {
+  width: 100%;
+  height: 15rem;
+  background-color: #17181b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-family: "Baloo Da 2", serif;
+  font-size: 1.6rem;
+  color: #a7a7a7;
+}
+
+.social-list a {
+  margin: 0 2rem;
+}
+
+.social-list i {
+  font-size: 2rem;
+  color: #a7a7a7;
+}
+/*--------------------------------------------------------
+/* End of Footer
+----------------------------------------------------------*/
+
+/* Scroll button */
+.scroll-btn {
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #e2b646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+}
