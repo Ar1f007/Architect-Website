@@ -199,6 +199,11 @@
     right: 38rem;
   }
 
+  .change .hamburger-menu:hover span {
+    visibility: hidden;
+    opacity: 0;
+  }
+
   .contact {
     padding: 3rem;
   }
