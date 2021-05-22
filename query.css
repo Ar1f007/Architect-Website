@@ -199,9 +199,8 @@
     right: 38rem;
   }
 
-  .change .hamburger-menu:hover span {
-    visibility: hidden;
-    opacity: 0;
+  .hamburger-menu span {
+    display: none;
   }
 
   .contact {
