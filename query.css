@@ -63,6 +63,10 @@
 }
 
 @media (max-width: 1300px) {
+  .hamburger-menu span {
+    display: none;
+  }
+
   .team {
     padding-bottom: 5rem;
   }
@@ -197,10 +201,6 @@
 
   .change .hamburger-menu {
     right: 38rem;
-  }
-
-  .hamburger-menu span {
-    display: none;
   }
 
   .contact {
